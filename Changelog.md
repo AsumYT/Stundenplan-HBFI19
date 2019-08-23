@@ -2,8 +2,8 @@
 
 Das ist der erweiterte Changelog der App. Hier werden die Änderungen von allen bisherigen Versionen der App enthalten sein (ggf. auch ausführlicher).
 
-\+ hinzugefügt
-\# geändert
+\+ hinzugefügt<br>
+\# geändert<br>
 \- entfernt
 
 <h1>1.0.4</h1>
