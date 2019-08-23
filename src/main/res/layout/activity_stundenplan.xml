@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TableLayout android:id="@+id/tableLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:id="@+id/textview0" android:layout_width="43.0dip" android:layout_height="wrap_content" android:text="Std." android:textAlignment="center" />
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:id="@+id/message_user" android:paddingRight="-2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="M" android:layout_weight="1.0" android:textAlignment="center" />
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:id="@+id/textview2" android:background="@android:color/darker_gray" android:paddingRight="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="D" android:layout_weight="1.0" android:textAlignment="center" />
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:id="@+id/textview3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="M" android:layout_weight="1.0" android:textAlignment="center" />
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:id="@+id/textview4" android:background="@android:color/darker_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="D" android:layout_weight="1.0" android:textAlignment="center" />
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:id="@+id/textview5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-2.0dip" android:layout_marginRight="6.0dip" android:text="F" android:layout_weight="1.0" android:textAlignment="center" />
+        </TableRow>
+    </TableLayout>
+    <TextView android:textSize="5.0sp" android:id="@id/line1" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="35.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tableLayout" />
+    <View android:id="@+id/line2" android:background="@color/colorPrimary" android:layout_width="8.0dip" android:layout_height="fill_parent" android:layout_marginTop="22.0dip" android:layout_marginStart="35.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="35.0dip" android:layout_height="fill_parent" android:layout_marginTop="28.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:id="@+id/textview6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1. Std" android:layout_weight="1.0" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:id="@+id/textview7" android:background="@android:color/darker_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2. Std" android:layout_weight="1.0" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:id="@+id/textView" android:background="@color/colorBreakTime" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:id="@+id/textview8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="3. Std" android:layout_weight="1.0" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:id="@+id/textview9" android:background="@android:color/darker_gray" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="4. Std" android:layout_weight="1.0" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:id="@+id/textView2" android:background="@color/colorBreakTime" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:id="@+id/textview10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="5. Std" android:layout_weight="1.0" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:id="@+id/textview11" android:background="@android:color/darker_gray" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="6. Std" android:layout_weight="1.0" />
+        <TextView android:id="@+id/textview0000" android:background="@color/colorBreakTime" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:id="@+id/textview1111" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="7. Std" android:layout_weight="1.0" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:id="@+id/textview2222" android:background="@android:color/darker_gray" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="8. Std" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="28.0dip" android:layout_marginStart="43.0dip" app:layout_constraintStart_toEndOf="@id/line2" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:gravity="center_horizontal" android:id="@+id/textview12" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="TextView" android:layout_weight="1.0" />
+            <TextView android:gravity="center_horizontal" android:id="@+id/textview13" android:background="@color/colorStundenplanLight" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="TextView" android:layout_weight="1.0" />
+            <TextView android:gravity="center_horizontal" android:id="@+id/textview14" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="TextView" android:layout_weight="1.0" />
+            <TextView android:gravity="center_horizontal" android:id="@+id/textview15" android:background="@color/colorStundenplanLight" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="TextView" android:layout_weight="1.0" />
+            <TextView android:gravity="center_horizontal" android:id="@+id/textview16" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="TextView" android:layout_weight="1.0" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBreakTime"
+            android:text="1. Pause (9:30-9:45)"
+            android:textAlignment="center"
+            android:textSize="16.0sp"
+            android:textStyle="bold" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:gravity="center_horizontal" android:id="@+id/textview17" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="TextView" android:layout_weight="1.0" />
+            <TextView android:gravity="center_horizontal" android:id="@+id/textview18" android:background="@color/colorStundenplanLight" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="TextView" android:layout_weight="1.0" />
+            <TextView android:gravity="center_horizontal" android:id="@+id/textview19" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="TextView" android:layout_weight="1.0" />
+            <TextView android:gravity="center_horizontal" android:id="@+id/textview20" android:background="@color/colorStundenplanLight" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="TextView" android:layout_weight="1.0" />
+            <TextView android:gravity="center_horizontal" android:id="@+id/textview21" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="TextView" android:layout_weight="1.0" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBreakTime"
+            android:text="2. Pause (11:15-11:30)"
+            android:textAlignment="center"
+            android:textSize="16.0sp"
+            android:textStyle="bold" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:gravity="center_horizontal" android:id="@+id/textview22" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="TextView" android:layout_weight="1.0" />
+            <TextView android:gravity="center_horizontal" android:id="@+id/textview23" android:background="@color/colorStundenplanLight" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="TextView" android:layout_weight="1.0" />
+            <TextView android:gravity="center_horizontal" android:id="@+id/textview24" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="TextView" android:layout_weight="1.0" />
+            <TextView android:gravity="center_horizontal" android:id="@+id/textview25" android:background="@color/colorStundenplanLight" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="TextView" android:layout_weight="1.0" />
+            <TextView android:gravity="center_horizontal" android:id="@+id/textview26" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="TextView" android:layout_weight="1.0" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBreakTime"
+            android:text="Mittagspause (13:00-13:30)"
+            android:textAlignment="center"
+            android:textSize="16.0sp"
+            android:textStyle="bold" />
+        <LinearLayout android:orientation="horizontal" android:id="@+id/lineargts1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:gravity="center_horizontal" android:id="@+id/textview27" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="TextView" android:layout_weight="1.0" />
+            <TextView android:gravity="center_horizontal" android:id="@+id/textview28" android:background="@color/colorStundenplanLight" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="TextView" android:layout_weight="1.0" />
+            <TextView android:gravity="center_horizontal" android:id="@+id/textview29" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="TextView" android:layout_weight="1.0" />
+            <TextView android:gravity="center_horizontal" android:id="@+id/textview30" android:background="@color/colorStundenplanLight" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="TextView" android:layout_weight="1.0" />
+            <TextView android:gravity="center_horizontal" android:id="@+id/textview31" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="TextView" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
