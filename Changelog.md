@@ -7,5 +7,5 @@ Das ist der erweiterte Changelog der App. Hier werden die Änderungen von allen 
 \- entfernt
 
 <h1>1.0.4</h1>
-<h4>20.08.2019</h4>
+<h4>20.08.2019</h4><br>
 # Erste Version, keine Änderungen
