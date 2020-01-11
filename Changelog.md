@@ -8,16 +8,16 @@ Das ist der erweiterte Changelog der App. Hier werden die Änderungen von allen 
 
 <h1>1.3.1</h1>
 <h4>11.01.2020</h4>
-+ Dark Mode
-+ DSBMobile API
-+ Internet and Bluetooth Permission
-+ Firebase
-    - Cloud Firestore
-    - Cloud Messaging
++ Dark Mode<br>
++ DSBMobile API<br>
++ Internet and Bluetooth Permission<br>
++ Firebase<br>
+    - Cloud Firestore<br>
+    - Cloud Messaging<br>
 
 <h1>1.0.5</h1>
 <h4>08.09.2019</h4>
-# Räume aktualisiert 
+# Räume aktualisiert<br>
 
 <h1>1.0.4</h1>
 <h4>20.08.2019</h4>
