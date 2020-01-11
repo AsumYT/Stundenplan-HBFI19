@@ -6,6 +6,10 @@ Das ist der erweiterte Changelog der App. Hier werden die Änderungen von allen 
 \# geändert<br>
 \- entfernt
 
+<h1>1.0.5</h1>
+<h4>08.09.2019</h4>
+\# Räume aktualisiert 
+
 <h1>1.0.4</h1>
 <h4>20.08.2019</h4>
-# Erste Version, keine Änderungen<br>
+\# Erste Version, keine Änderungen<br>
