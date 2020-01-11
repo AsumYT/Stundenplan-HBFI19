@@ -12,8 +12,8 @@ Das ist der erweiterte Changelog der App. Hier werden die Änderungen von allen 
 + DSBMobile API<br>
 + Internet and Bluetooth Permission<br>
 + Firebase<br>
-    - Cloud Firestore<br>
-    - Cloud Messaging<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Cloud Firestore<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Cloud Messaging<br>
 
 <h1>1.0.5</h1>
 <h4>08.09.2019</h4>
