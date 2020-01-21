@@ -6,6 +6,14 @@ Das ist der erweiterte Changelog der App. Hier werden die Änderungen von allen 
 \# geändert<br>
 \- entfernt
 
+<h1>1.4.1</h1>
+<h4>21.01.2020</h4>
+# Stundenplan --> Einträge aktualisiert<br>
+# Stundenplan --> Layout verbessert (Farben hinzugefügt)<br>
+# Fixed: Dark Theme --> DSBMobile --> "Nachrichten zum Tag" nicht sichtbar <br>
+# Library updates <br>
+# Notification System updated <br>
+
 <h1>1.3.1</h1>
 <h4>11.01.2020</h4>
 + Dark Mode<br>
