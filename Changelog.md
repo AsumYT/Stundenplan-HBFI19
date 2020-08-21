@@ -6,6 +6,32 @@ Das ist der erweiterte Changelog der App. Hier werden die Änderungen von allen 
 \# geändert<br>
 \- entfernt
 
+<h1>2.0.0</h1>
+<h4>21.08.2020</h4>
++ Moodle-Integration (mit Auto-Login)<br>
++ Neue Lehrerkürzel<br>
++ Hilfetexte<br>
+# Designanpassungen (Optionen; Schatten; Cliparts)<br>
+# Fehler mit Option "Startanimation" behoben<br>
+
+<h1>1.7.0</h1>
+<h4>14.08.2020</h4>
++ Neues Icon<br>
+# DSBMobile-Integration --> Async-Task zum Laden der Pläne<br>
+# Startanimation --> Ausschaltbar in Optionen (Musik-Fix)<br>
+# Entfallene Stunden --> Auf neues Schuljahr angepasst (POST geändert)<br>
+
+<h1>1.6.2</h1>
+<h4>02.06.2020</h4>
++ Untis API - Entfallene Stunden im Stundenplan<br>
+# Farbe vom heutigen Tag (Blauton) verändert<br>
+- Unnötiger Code<br>
+
+<h1>1.5.4</h1>
+<h4>22.05.2020</h4>
+# Stundenplan mit Datenbank verknüpft<br>
+- Gruppendialog (Einstellung wird ggf. zum neuen Schuljahr entfernt)<br>
+
 <h1>1.5.0</h1>
 <h4>02.02.2020</h4>
 + PDF-Dokumente --> Dalton Pläne und Raumplan<br>
